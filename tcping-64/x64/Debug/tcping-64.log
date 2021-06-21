@@ -1,0 +1,30 @@
+﻿生成启动时间为 2020/11/24 14:27:53。
+日志记录详细程度设置为: Normal。     1>项目“G:\coding\company\tcping-src\tcping-64\tcping-64.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\tcping-64.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\soft_install\vs2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt "..\tcping-src\tcping.cpp"
+         tcping.cpp
+     1>G:\coding\company\tcping-src\tcping-src\tcping.cpp(230,100): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+       Link:
+         D:\soft_install\vs2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\coding\company\tcping-src\x64\Debug\tcping64.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"G:\coding\company\tcping-src\x64\Debug\tcping64.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\coding\company\tcping-src\x64\Debug\tcping64.lib" /MACHINE:X64 x64\Debug\base64.obj
+         x64\Debug\main.obj
+         x64\Debug\tcping.obj
+         x64\Debug\tee.obj
+         "x64\Debug\ws-util.obj"
+         tcping-64.vcxproj -> G:\coding\company\tcping-src\x64\Debug\tcping64.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\tcping-64.tlog\unsuccessfulbuild”。
+         正在对“x64\Debug\tcping-64.tlog\tcping-64.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\coding\company\tcping-src\tcping-64\tcping-64.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+       “G:\coding\company\tcping-src\tcping-64\tcping-64.vcxproj”(Build 目标) (1) ->
+       (ClCompile 目标) -> 
+         G:\coding\company\tcping-src\tcping-src\tcping.cpp(230,100): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:02.64
